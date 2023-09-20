@@ -1,0 +1,9 @@
+.assetContainer {
+	list-style: none;
+	width: 100%;
+	margin: auto auto;
+}
+
+.assetLink {
+	text-decoration: none;
+}

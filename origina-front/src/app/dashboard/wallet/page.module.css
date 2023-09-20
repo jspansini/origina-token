@@ -1,0 +1,54 @@
+
+.walletContainer {
+    display: flex;
+    height: 62px;
+    margin: 14px 0px;
+    background: linear-gradient(#0E4428 , #19CB78);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-2);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.walletContainerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 38%;
+}
+
+.walletContainerLeftItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.walletContainerLeft h1 {
+    margin-bottom: 3px;
+    padding-top: 4px;
+}
+
+.walletContainerLeft h2 {
+    margin-left: 3px
+}
+
+.walletContainerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 42%;
+    height: 100%;
+}
+
+.optionsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 35px;
+}

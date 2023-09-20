@@ -1,0 +1,28 @@
+.card {
+	display: flex;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	align-self: center;
+}
+
+.wrapper h1 {
+	height: 20px;
+	font-size: 10px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.bg1 {
+	background-color: lightgray;
+}
+
+.bg2 {
+	background-color: transparent;
+}

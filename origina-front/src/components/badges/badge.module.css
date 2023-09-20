@@ -1,0 +1,7 @@
+.card {
+	display: flex;
+}
+
+.grayscale {
+	filter: grayscale(100%);
+}
